@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h2 id="text">Q.1- Write the code to access element which is having id as "text"</h2>
+    <h3>let idtext = document.getElementById("text");</h3>
+    <hr>
+    <h2>Q1. Write the code to access element which is having tag as "h1"</h2>
+    <h1>h1 tag some text</h1>
+    <h3>let tag = document.getElementsByTagName("h1");</h3>
+    <hr>
+    <h2>Q2. Write the code to access element which is having class as "box"</h2>
+        <div class="box"></div>
+    <h3>let abc = document.getElementsByClassName("box");</h3>
+    <hr>
+    <h2> Q3. "<h1 onclick="change()" id="hello">Hello</h1>" Change the heading from ""Hello"" to ""Hello World"" using DOM functions"</h2>
+    <hr>
+    <h2>Q4. Create an HTML page having content as Hello world and a button named Replace Text. 
+        When user will click on this button page content should be changed to "Welcome to Elevation academy"</h2>
+        <p style="font-size: 30px;" id="world"> Hello World</p> 
+        <button onclick="replace()">Replace Text</button>
+        <hr>
+        <h2>Q5. Add one style attribute and give text color as red and id attribute and 
+            give the id value as ""heading"" in the above given h1 tag using DOM functions"</h2>
+        <h1 id="4">Hello</h1>
+        <hr>
+        <h2>Q6. Create three cards on HTML page and arrange them using flex property in row or horizontal direction 
+            and also create button at the bottom named "Change Flex direction".
+             When user clicks on this button, the cards arrangement should be changed to vertical direction.</h2>
+        <div id="abc">
+            <div id="box"></div>
+            <div id="box"></div>
+            <div id="box"></div>
+        </div>
+        <button onclick="flex_direction()">Change Flex direction</button>
+        <hr>
+        <h2>Q7. What’s the difference between window vs document?</h2>
+        <h3>The window object represents a window/tab containing a DOM document where as document object is property of window object that points to the DOM document loaded in that window</h3>
+        <hr>
+        <h2>Q8. Write code to implement timer clock using JS -- display HH:MM:SS -- the time should keep updating every second</h2>
+        <h3>
+            <span id="hrs"></span>:
+            <span id="min"></span>:
+            <span id="sec"></span>
+            <span id="ampm"></span>
+        </h3>
+        <hr>
+        <h2>Q9. Guess The Number Game Link</h2>
+    <script src="./java.js"></script>
+</body>
+</html>
