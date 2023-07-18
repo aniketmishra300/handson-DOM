@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NumberGame</title>
+    <link rel="stylesheet" href="./style1.css">
+</head>
+<body>
+    <hr>
+    <button onclick="PlayAgain()" class="playagain">Play Again</button>
+    <h1>(Between 1 to 100)</h1>
+    <h1 class="num">Guess The Number </h1>
+    <div class="randomnum">?</div>
+
+    <input id="inputValue" type="number" >
+    <div class="guessContainer">
+        <p id="guess">Start Guessing .....</p>
+        <br><br>
+        <p class="chances">💯Chances  : <span id="chances">100</span></p>
+        <br>
+        <p class="highscore  chances">🥇Highscore : <span id="highscore">0</span></p>
+    </div>
+    <button onclick="check()" id="check">Check</button>
+    <script src="./script1.js"></script>
+</body>
+</html>

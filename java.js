@@ -25,7 +25,13 @@ function replace()
     function flex_direction()
     {
         let variable = document.getElementById("abc");
-              variable.style.flexDirection = "column";       
+        variable.style.flexDirection = "column";  
+
+        // if(column)
+        // {
+        // variable.style.flexDirection = "row";  
+        // }
+        
     }
 
     function time()

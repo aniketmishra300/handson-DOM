@@ -1,0 +1,100 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(40, 20, 20);
+}
+
+hr{
+    position: relative;
+    top: 250px;
+    height: 8px;
+    background-color: aliceblue;
+    color: white;
+}
+
+h1{
+    color: white;
+    position: relative;
+    left: 80%;
+    top: -60px;
+}
+
+.num{
+    color: white;
+    position: relative;
+    left: 42%;
+    top: -10px;
+    font-size: 40px;
+
+}
+.randomnum
+{
+    position: absolute;
+    top: 26%;
+    left: 47%;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+    border: 2px solid black;
+    width: 150px;
+    height: 150px;
+
+}
+
+#guess
+{
+    font-size: 35px;
+    color: white;
+}
+
+.playagain
+{
+    padding: 15px;
+    font-size: 25px;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+#check
+{
+    padding: 20px;
+    font-size: 30px;
+    border-radius: 10px;
+    position: absolute;
+    top: 70%;
+    left: 25%;
+}
+
+.chances
+{
+    font-size: 25px;
+    color: white;
+}
+
+input
+{
+    width: 250px;
+    height: 100px;
+    font-size: 55px;
+    text-align: center;
+    padding: 5px;
+    color: white;
+    background-color: rgb(40, 20, 20);
+    border: 5px solid white;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+}
+
+.guessContainer
+{
+    position: absolute;
+    left: 60%;
+    top: 55%;
+}
